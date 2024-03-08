@@ -129,7 +129,7 @@ This project is a step-by-step guide to building a CRUD API using NestJS, focusi
 
 ### Conclusion
 
-This README serves as a guide to building a CRUD API project using NestJS, covering essential topics such as authentication, authorization, testing, and deployment. Feel free to explore each section in detail to understand the project's architecture and implementation. Happy coding!
+This README serves as a guide to building a CRUD API project using NestJS, covering essential topics such as authentication, authorization, testing, and deployment. Feel free to explore each section in detail to understand the project's architecture and implementation. Please feel free to ask any question regarding the project.
 
 
 ## Test
