@@ -45,6 +45,93 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+
+### CRUD API Project Using NestJS
+
+This project is a step-by-step guide to building a CRUD API using NestJS, focusing on various essential topics such as authentication, database setup, testing, and more.
+
+### Part 1: Setting Up the Project
+
+1. **Modules and Dependency Injection**:
+    - Utilize NestJS modules for organizing code and managing dependencies.
+    - Leverage NestJS's built-in dependency injection for efficient component management.
+
+2. **Setting Up PostgreSQL in Docker**:
+    - Use Docker to set up a PostgreSQL database for your project.
+
+3. **Setting Up Prisma**:
+    - Integrate Prisma as an ORM for database interactions.
+
+4. **Running Prisma Migrations**:
+    - Run Prisma migrations to synchronize your database schema with your code.
+
+### Part 2: Authentication
+
+5. **Auth Module**:
+    - Create an authentication module to handle user authentication.
+
+6. **Auth Controller**:
+    - Develop controllers to handle authentication logic.
+
+7. **Hashing User Password with Argon**:
+    - Implement password hashing using Argon2 for security.
+
+8. **Sign Up Logic**:
+    - Define logic for user registration.
+
+9. **Sign In Logic**:
+    - Implement logic for user authentication.
+
+### Part 3: Authorization and Security
+
+10. **Using Passport.js & JWT Module with NestJS**:
+    - Utilize Passport.js and JWT for authentication and authorization.
+
+11. **NestJS Guards**:
+    - Implement guards to restrict access to certain routes.
+
+12. **Get Current User with Access Token**:
+    - Extract user information from the access token.
+
+### Part 4: Testing and Deployment
+
+13. **E2E Tests with Pactum.js**:
+    - Write end-to-end tests using Pactum.js for API endpoints.
+
+14. **Setting Up Test Database**:
+    - Configure a separate test database for running tests.
+
+15. **Automate Test Database Restart & Migrations**:
+    - Automate the process of resetting and migrating the test database.
+
+16. **Auth E2E Tests, User E2E Tests, Bookmarks E2E Test**:
+    - Write E2E tests to ensure the functionality of authentication, user operations, and bookmark management.
+
+### Additional Features and Enhancements
+
+17. **NestJS Global Pipe**:
+    - Implement global pipes for request validation and transformation.
+
+18. **NestJS Custom Param Decorator**:
+    - Create custom parameter decorators to simplify request handling.
+
+19. **NestJS Config Module**:
+    - Utilize NestJS configuration module for managing environment variables.
+
+20. **Prisma Module**:
+    - Organize Prisma related logic into a separate module for better maintainability.
+
+21. **Using Auth DTOs**:
+    - Utilize Data Transfer Objects (DTOs) for handling authentication-related data.
+
+22. **Prisma Database Teardown Logic**:
+    - Implement logic to tear down the test database after running tests.
+
+### Conclusion
+
+This README serves as a guide to building a CRUD API project using NestJS, covering essential topics such as authentication, authorization, testing, and deployment. Feel free to explore each section in detail to understand the project's architecture and implementation. Happy coding!
+
+
 ## Test
 
 ```bash
